@@ -1,19 +1,33 @@
-# React + Vite
+# 🌐 My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website showcasing my **skills, projects, education, and contact information**.
 
-Currently, two official plugins are available:
+## 🚀 Live Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 **[View Portfolio](https://portfolio-six-blond-20.vercel.app/)**
 
-## React Compiler
+## 🛠️ Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* Tailwind CSS
+* Vite
 
-## Expanding the ESLint configuration
+## 💻 Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# my-portfolio" 
-"# me"  git init git add README.md git commit -m "first commit" git branch -M main git remote add origin https://github.com/Amlesh96082/my-portfolio.git git push -u origin main
-"# my-portfolio"  git init git add README.md git commit -m "first commit" git branch -M main git remote add origin https://github.com/Amlesh96082/my-portfolio.git git push -u origin main
+```bash
+git clone YOUR-GITHUB-REPOSITORY-LINK
+cd portfolio
+npm install
+npm run dev
+```
+
+## 📌 Deployment
+
+Deployed with **Vercel**.
+
+---
+
+⭐ If you like my portfolio, consider giving the repository a star!
