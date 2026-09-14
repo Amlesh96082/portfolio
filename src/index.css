@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #020617;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes rotateImageLeftRight {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.rotate-image {
+  cursor: pointer;
+  perspective: 1000px;
+  animation: rotateImageLeftRight 8s linear 2;
+}
+
+.rotate-image:hover {
+  filter: brightness(1.2);
+  box-shadow: 0 10px 30px rgba(168, 85, 247, 0.4);
+}
